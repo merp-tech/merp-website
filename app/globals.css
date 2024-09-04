@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  height: 100%;
+  font-family: var(--font-avenir);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
