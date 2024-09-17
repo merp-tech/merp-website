@@ -76,9 +76,9 @@ const Home: React.FC<any> = () => {
             <AnimatedTextCharacter text="Coming Soon." />
             <motion.p
               initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
+              animate={{ opacity: 1, x: 10 }}
               transition={{ ease: "easeOut", duration: 2 }}
-              className="text-lg text-gray-300  -mt-32 lg:-mt-28"
+              className="text-lg text-gray-300  -mt-32 lg:-mt-24"
             >
               Stay tuned for more updates.
             </motion.p>
